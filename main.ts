@@ -54,7 +54,7 @@ console.log(myColour) // prints 1
 
 // we can specify the numners we want
 enum CARDINAL { NORTH = 10, EAST, SOUTH, WEST }
-               // 1          11    12     13
+               // 10         11    12     13
 const myCardinal: CARDINAL = CARDINAL.SOUTH
 console.log(myCardinal) // prints 12
 
