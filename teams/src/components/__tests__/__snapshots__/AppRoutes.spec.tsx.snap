@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AppRoutes should match the snapshot 1`] = `
+<Switch>
+  <Route
+    path="/teams"
+  >
+    <TeamsPage />
+  </Route>
+  <Route
+    path="/profile"
+  >
+    <ProfilePage />
+  </Route>
+  <Route
+    path="/"
+  >
+    <PlayersPage />
+  </Route>
+</Switch>
+`;
