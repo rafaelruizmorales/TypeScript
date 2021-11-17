@@ -1,5 +1,6 @@
 import './App.css';
 
+import { PageHeader } from './components/PageHeader';
 import { Greet } from './components/Greet';
 import { Person } from './components/Person'
 import { PersonList } from './components/PersonList';
@@ -36,6 +37,7 @@ function App() {
 
   return (
     <div className="App">
+      <PageHeader title="Hello Chicooooos" />
       <Greet name="Rafa" messageCount={5} isLoggedIn={false}/>
       <Greet name="Kyo" isLoggedIn={true}/>
       <Person name={personName} />
