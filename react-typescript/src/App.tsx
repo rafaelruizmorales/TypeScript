@@ -8,6 +8,10 @@ import { Heading } from './components/Heading';
 import { Button } from './components/Button';
 import { Input } from './components/Input';
 
+import { Color } from './components/state/Color';
+import { Counter } from './components/reducer/Counter';
+import { Effect } from './components/effect/Effect';
+
 function App() {
   
   const personName = {
@@ -51,6 +55,11 @@ function App() {
         console.log(event);
       }} />
 
+      <Color />
+
+      <Counter />
+
+      <Effect />
 
     </div>
   );
